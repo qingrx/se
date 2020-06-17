@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="se-bf-parent" />
+        <module name="se-bf-jpa" />
+        <module name="se-bf-eureka" />
+        <module name="se-bf-programme" />
+        <module name="bf-spring-boot-starter" />
+        <module name="se-bb-system" />
+        <module name="se-bf-core" />
+        <module name="bf-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bb-parent" target="1.8" />
+      <module name="bb-system" target="1.8" />
+      <module name="bf-core" target="1.8" />
+      <module name="bf-demo" target="1.8" />
+      <module name="bf-jpa" target="1.8" />
+      <module name="bf-parent" target="1.8" />
+      <module name="bf-spring-boot-starter" target="1.8" />
+      <module name="se-bb-parent" target="1.8" />
+      <module name="se-bb-system" target="1.8" />
+      <module name="se-bf-core" target="1.8" />
+      <module name="se-bf-eureka" target="1.8" />
+      <module name="se-bf-jpa" target="1.8" />
+      <module name="se-bf-parent" target="1.8" />
+      <module name="se-bf-programme" target="1.8" />
+      <module name="se-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bb-system" options="-parameters" />
+      <module name="bf-core" options="-parameters" />
+      <module name="bf-demo" options="-parameters" />
+      <module name="bf-jpa" options="-parameters" />
+      <module name="bf-spring-boot-starter" options="-parameters" />
+      <module name="se-bb-system" options="-parameters" />
+      <module name="se-bf-core" options="-parameters" />
+      <module name="se-bf-eureka" options="-parameters" />
+      <module name="se-bf-jpa" options="-parameters" />
+      <module name="se-bf-parent" options="-parameters" />
+      <module name="se-bf-programme" options="-parameters" />
+      <module name="se-parent" options="-parameters" />
+    </option>
+  </component>
+</project>

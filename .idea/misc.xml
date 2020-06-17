@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bb-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/bf-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bb-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-programme/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

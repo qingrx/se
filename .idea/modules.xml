@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-demo/bf-demo.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-demo/bf-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/bf-spring-boot-starter/bf-spring-boot-starter.iml" filepath="$PROJECT_DIR$/se-bf-parent/bf-spring-boot-starter/bf-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bb-parent/se-bb-parent.iml" filepath="$PROJECT_DIR$/se-bb-parent/se-bb-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bb-parent/se-bb-system/se-bb-system.iml" filepath="$PROJECT_DIR$/se-bb-parent/se-bb-system/se-bb-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-core/se-bf-core.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-core/se-bf-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-eureka.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-jpa/se-bf-jpa.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-jpa/se-bf-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-parent.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-programme/se-bf-programme.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-programme/se-bf-programme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-parent.iml" filepath="$PROJECT_DIR$/se-parent.iml" />
+    </modules>
+  </component>
+</project>
