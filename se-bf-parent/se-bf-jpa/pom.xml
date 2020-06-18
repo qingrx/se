@@ -9,7 +9,6 @@
     </parent>
     <artifactId>se-bf-jpa</artifactId>
     <name>se-bf-jpa</name>
-    <packaging>jar</packaging>
     <description>Base framework for Spring Boot of jpa</description>
 
     <dependencies>
@@ -18,7 +17,11 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
             <scope>compile</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>

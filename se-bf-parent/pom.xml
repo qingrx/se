@@ -12,10 +12,12 @@
     <artifactId>se-bf-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>se-bf-parent</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
-
     <properties>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
+        <se-bf-version>1.0.0-SNAPSHOT</se-bf-version>
     </properties>
 
     <modules>
@@ -31,7 +33,17 @@
             <dependency>
                 <groupId>com.se.bf</groupId>
                 <artifactId>bf-spring-boot-starter</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${se-bf-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.se.bf</groupId>
+                <artifactId>se-bf-core</artifactId>
+                <version>${se-bf-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.se.bf</groupId>
+                <artifactId>se-bf-jpa</artifactId>
+                <version>${se-bf-version}</version>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -44,6 +56,18 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.68</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -51,6 +75,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
