@@ -2,6 +2,8 @@ bf:
   jpa:
     enable: true
 spring:
+  application:
+    name: se-bb-system
   jpa:
     hibernate:
       ddl-auto: update
@@ -37,3 +39,9 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
 server:
   port: 9300
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
