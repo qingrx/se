@@ -6,12 +6,13 @@ spring:
       config:
         server-addr: 192.168.237.11:8848
         extension-configs[0]:
-          data-id: application-dev.yml
+          data-id: application-test.yml
           group: bb-system
           refresh: true
         extension-configs[1]:
           data-id: datasource.properties
           group: bb-system
+        namespace: ef71e044-35a7-45cc-b7a2-746eac50f17a
 #          ext-config[0]:
 #            data-id: application-dev.yml
 #            group: bb-system
