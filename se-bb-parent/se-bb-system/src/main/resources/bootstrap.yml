@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: se-bb-system
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.237.11:8848
+        extension-configs[0]:
+          data-id: application-dev.yml
+          group: bb-system
+          refresh: true
+        extension-configs[1]:
+          data-id: datasource.properties
+          group: bb-system
+#          ext-config[0]:
+#            data-id: application-dev.yml
+#            group: bb-system
+#            refresh: true
+#            ext-config[1]:
+#              data-id: datasource.properties
+#              group: bb-system

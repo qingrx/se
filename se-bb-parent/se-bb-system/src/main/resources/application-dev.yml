@@ -1,9 +1,18 @@
 bf:
   jpa:
     enable: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 spring:
   application:
     name: se-bb-system
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.237.11:8848
   jpa:
     hibernate:
       ddl-auto: update
@@ -39,9 +48,9 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
 server:
   port: 9300
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    prefer-ip-address: true
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
