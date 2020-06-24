@@ -2,18 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="se-bf-parent" />
+        <module name="se-bf-source" />
         <module name="se-bf-jpa" />
         <module name="se-bf-eureka" />
         <module name="se-bf-programme" />
+        <module name="se-bf-search" />
         <module name="bf-spring-boot-starter" />
         <module name="se-bb-system" />
+        <module name="se-bf-springboot-admin" />
         <module name="se-bf-core" />
+        <module name="se-bb-system-api" />
         <module name="bf-demo" />
+        <module name="se-bf-nacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,11 +31,16 @@
       <module name="bf-spring-boot-starter" target="1.8" />
       <module name="se-bb-parent" target="1.8" />
       <module name="se-bb-system" target="1.8" />
+      <module name="se-bb-system-api" target="1.8" />
       <module name="se-bf-core" target="1.8" />
       <module name="se-bf-eureka" target="1.8" />
       <module name="se-bf-jpa" target="1.8" />
+      <module name="se-bf-nacos" target="1.8" />
       <module name="se-bf-parent" target="1.8" />
       <module name="se-bf-programme" target="1.8" />
+      <module name="se-bf-search" target="1.8" />
+      <module name="se-bf-source" target="1.8" />
+      <module name="se-bf-springboot-admin" target="1.8" />
       <module name="se-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -42,11 +52,16 @@
       <module name="bf-jpa" options="-parameters" />
       <module name="bf-spring-boot-starter" options="-parameters" />
       <module name="se-bb-system" options="-parameters" />
+      <module name="se-bb-system-api" options="-parameters" />
       <module name="se-bf-core" options="-parameters" />
       <module name="se-bf-eureka" options="-parameters" />
       <module name="se-bf-jpa" options="-parameters" />
+      <module name="se-bf-nacos" options="-parameters" />
       <module name="se-bf-parent" options="-parameters" />
       <module name="se-bf-programme" options="-parameters" />
+      <module name="se-bf-search" options="-parameters" />
+      <module name="se-bf-source" options="-parameters" />
+      <module name="se-bf-springboot-admin" options="-parameters" />
       <module name="se-parent" options="-parameters" />
     </option>
   </component>

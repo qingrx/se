@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/se-bb-parent/pom.xml" />
         <option value="$PROJECT_DIR$/se-bf-parent/se-bf-programme/pom.xml" />
         <option value="$PROJECT_DIR$/se-bf-parent/se-bf-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bb-parent/se-bb-system-api/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-springboot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-source/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-search/pom.xml" />
       </list>
     </option>
   </component>
