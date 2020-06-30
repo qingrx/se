@@ -20,6 +20,7 @@
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
         <se-bf-version>1.0.0-SNAPSHOT</se-bf-version>
         <nacos.version>0.2.1.RELEASE</nacos.version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
 
     <modules>
@@ -28,6 +29,8 @@
         <module>se-bf-jpa</module>
         <module>se-bf-programme</module>
         <module>se-bf-demo</module>
+        <module>se-bf-mybatis</module>
+        <module>se-bf-mybatis-demo</module>
     </modules>
 
     <dependencyManagement>
@@ -55,6 +58,11 @@
             <dependency>
                 <groupId>com.se.bf</groupId>
                 <artifactId>se-bf-jpa</artifactId>
+                <version>${se-bf-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.se.bf</groupId>
+                <artifactId>se-bf-mybatis</artifactId>
                 <version>${se-bf-version}</version>
             </dependency>
             <dependency>
@@ -119,9 +127,16 @@
 
     <build>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
             </plugin>
         </plugins>
     </build>

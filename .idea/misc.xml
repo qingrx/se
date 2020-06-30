@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/se-bf-parent/se-bf-springboot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/se-bf-source/pom.xml" />
         <option value="$PROJECT_DIR$/se-bf-parent/se-bf-search/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/se-bf-parent/se-bf-mybatis/pom.xml" />
       </list>
     </option>
   </component>

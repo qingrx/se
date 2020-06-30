@@ -1,0 +1,53 @@
+bf:
+  jpa:
+    enable: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#  endpoint:
+#    health:
+#      show-details: ALWAYS
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000
+        username: "admin"
+        password: "admin"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://192.168.237.11:3306/bs_user?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2b8
+    username: root
+    password: qingrx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #连接池大小
+    initialSize: 5
+    #最小
+    minIdle: 5
+    #最大
+    maxActive: 20
+    #获取连接等待超时的时间
+    maxWait: 60000
+    #间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    #一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    #打开PSCache，并且指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+server:
+  port: 9300

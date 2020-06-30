@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.bf.core.utils.pay.FastJsonUtil;
 import com.bf.demo.model.User;
 import com.bf.demo.service.IUserService;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,7 @@ public class UserController {
     private IUserService userService;
 
     @ApiOperation(value = "根据主键查询用户对象", notes = "主键为Long类型")
+    @ApiImplicitParams({@ApiImplicitParam(name = "id",value = "用户id",defaultValue = "0")})
     @GetMapping(value = "/getById/{id}")
     public JSONObject unFinishCheckPoint(
             @ApiParam(value = "ID", required = true) @PathVariable Long id) {

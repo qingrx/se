@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-core/se-bf-core.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-core/se-bf-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-eureka/se-bf-eureka.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-eureka/se-bf-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-jpa/se-bf-jpa.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-jpa/se-bf-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-mybatis/se-bf-mybatis.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-mybatis/se-bf-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-mybatis-demo/se-bf-mybatis-demo.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-mybatis-demo/se-bf-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-nacos/se-bf-nacos.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-nacos/se-bf-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-parent.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/se-bf-parent/se-bf-programme/se-bf-programme.iml" filepath="$PROJECT_DIR$/se-bf-parent/se-bf-programme/se-bf-programme.iml" />
