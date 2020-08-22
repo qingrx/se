@@ -25,7 +25,7 @@ public class UserController {
     @GetMapping(value = "/getById/{id}")
     public JSONObject unFinishCheckPoint(
             @ApiParam(value = "ID", required = true) @PathVariable Long id) {
-        User u = userService.getById(1l);
+        User u = userService.getById(id);
         return JSONObject.parseObject(FastJsonUtil.toJSONString(u));
     }
 }

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.se.bf</groupId>
-    <artifactId>bf-demo</artifactId>
+    <artifactId>se-bf-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>bf-demo</name>
+    <name>se-bf-demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
